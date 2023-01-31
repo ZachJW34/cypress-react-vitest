@@ -1,0 +1,12 @@
+{
+  "compilerOptions": {
+    "composite": true,
+    "module": "ESNext",
+    "moduleResolution": "Node",
+    "allowSyntheticDefaultImports": true,
+    "jsx": "react-jsx",
+    "types": ["cypress"]
+  },
+  "include": ["cypress", "src"],
+  "exclude": ["src/**/*.test.tsx"]
+}
